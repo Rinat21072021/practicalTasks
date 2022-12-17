@@ -5,10 +5,12 @@
 
 .inputAndButtonContainer {
     display: flex;
+    margin: 9px 0;
 }
 
 .error {
     color: #cc0000;
+    height: 15px;
 }
 
 .input {
@@ -16,23 +18,26 @@
 }
 
 .input:focus {
-    outline: 0;
+
 }
 
 .errorInput {
-    outline: red;
+    border: 1px solid #b1b7be;
+    outline: 0;
     height: 36px;
     width: 372px;
     left: 0;
     top: 0;
     border-radius: 5px;
 
+
 }
 
 .button {
     padding: 5px 24px;
+    height: 36px;
     margin-left: 12px;
-    background: #0066CC;
+    background-color: #0066CC;;
     border-radius: 3px;
     color: #F5F7FB;
     font-size: 14px;
@@ -42,9 +47,12 @@
 }
 
 .button:active {
+
 }
 
 .button:disabled {
+    background: #0066CC;
+    opacity: 0.5;
 }
 
 .text {
@@ -52,4 +60,5 @@
 }
 
 .greeting {
+    font-size: 14px;;
 }
