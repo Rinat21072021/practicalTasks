@@ -13,15 +13,7 @@
     height: 15px;
 }
 
-.input {
-
-}
-
-.input:focus {
-
-}
-
-.errorInput {
+input {
     border: 1px solid #b1b7be;
     outline: 0;
     height: 36px;
@@ -29,8 +21,14 @@
     left: 0;
     top: 0;
     border-radius: 5px;
+}
 
+.input:focus {
 
+}
+
+.errorInput {
+    border: 1px solid red;
 }
 
 .button {

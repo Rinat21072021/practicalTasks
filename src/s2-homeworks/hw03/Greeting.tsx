@@ -25,7 +25,6 @@ const Greeting: React.FC<GreetingPropsType> = (
 	}
 ) => {
 	const inputClass = s.errorInput
-
 	return (
 		<div id={'hw3-form'} className={s.greetingForm}>
 			<div className={s.text}>
@@ -41,7 +40,7 @@ const Greeting: React.FC<GreetingPropsType> = (
 						id={'hw3-input'}
 						value={name}
 						onChange={setNameCallback}
-						className={inputClass}
+						className={error? inputClass: ""}
 						onKeyDown={onEnter}
 						onBlur={onBlur}
 					/>
